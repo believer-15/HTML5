@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* li:first-child{
+            color: red;
+        } */
+        /* li:last-child{
+            color: red;
+        } */
+        /* #list li:last-child{
+            color: red;
+        } */
+        /* li:nth-child(2n){  select from starting  target only child
+        }
+        li:nth-last-child(1){ select from ending target only child 
+        } */
+
+        /* p:nth-of-type(2n){  select without parent  from starting-point 
+            color: red;
+        } */
+        /* p:nth-last-of-type(2n+1){ select without parent from last-point
+            color: red;;
+        } */
+        /* p:only-child{ select which had only one child
+            color: red;
+        } */
+        /* p:only-of-type{
+            color: red;
+        } */
+        /* p:last-of-type{
+            color: red;
+        } */
+        div:empty {
+            border: 3px solid red;
+        }
+        /* p:not(.test) {
+            color: red;
+        } */
+        /* p:lang(en){
+            color:rgb(204, 255, 0);
+        } */
+        /* h1:hover{
+            color:blue;
+        } */
+        /* ul a:link{
+            color: red;
+        }     */
+        /* ul a:hover{
+        color: blue;
+        } */
+        /* ul a:visited{
+            color: green;
+        } */
+        /* ul a:active{
+            color: pink;
+        } */
+        p:target{
+            background: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Pseudo Element </h1>
+    <div></div>
+    <ul id="list">
+        <li><a href="#a">A</a></li>
+        <li><a href="#b">B</a></li>
+        <li><a href="#c">C</a></li>
+        <li><a href="#">D</a></li>
+        <li><a href="#">E</a></li>
+        <li><a href="#">F</a></li>
+    </ul>
+    <div></div>
+    <p class="test" id="a">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Repudiandae neque consectetur provident quibusdam sunt. 
+        Placeat nostrum laborum dolore dolor exercitationem.
+    </p>
+    <p id="b">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Repudiandae neque consectetur provident quibusdam sunt. 
+        Placeat nostrum laborum dolore dolor exercitationem.
+    </p>
+    <p id="c">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Repudiandae neque consectetur provident quibusdam sunt. 
+        Placeat nostrum laborum dolore dolor exercitationem.
+    </p>
+    <ul id="list-two">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+    </ul>
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Repudiandae neque consectetur provident quibusdam sunt. 
+            Placeat nostrum laborum dolore dolor exercitationem.
+        </p>
+     <h1>Lorem ipsum dolor sit.</h1>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Repudiandae neque consectetur provident quibusdam sunt. 
+        Placeat nostrum laborum dolore dolor exercitationem.
+    </p>
+    
+</body>
+</html>
