@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Forms</title>
+</head>
+<body>
+    <div id="content">
+        <h1>Data Collection Form</h1>
+        
+        <div id="formcontainer">
+            <form id="fdata">
+                <div class="container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                
+                <div class="container">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" name="Email">
+                </div>
+                
+                <div class="container">
+                    <label for="Age">Age</label>
+                    <input type="text" id="Age" name="Age">
+                </div>
+                
+                <div class="container">
+                   <label for="text">Which option best describes you?</label>
+                    <select name="text" id="dropdown">
+                        <option value="">Student</option>
+                        <option value="">Working Professional</option>
+                        <option value="">Businessman</option>
+                        <option value="">Entrepreneur</option>
+                    </select> 
+                </div>
+                
+                
+               <div class="container">
+                    <label>How did you know about this survey ?</label>
+                
+                    <label for="social"><input type="radio" id="facebook" name="data" value="facebook">facebook</label>
+                
+                    <label for="social"><input type="radio" id="instagram" name="data" value="instagram">Instagram</label>
+                
+                    <label for="social"><input type="radio" id="twitter" name="data" value="twitter">Twitter</label>
+               </div>
+
+               <div class="container">
+                    <label for="">Languages and Frameworks known (Check all must apply)</label>
+
+                    
+                    <label for="c"><input type="checkbox" id="c" name="interest" value="c">C</label>
+                    
+                    <label for="C++"><input type="checkbox" id="C++" name="interest" value="C++">C++</label>
+
+                    <label for="Java"><input type="checkbox" id="Java" name="interest" value="Java">Java</label>
+
+                    <label for="Python"><input type="checkbox" id="Python" name="interest" value="Python">Python</label>
+
+                    <label for="javascript"><input type="checkbox" id="javascript" name="interest" value="javascript">JavaScript</label>
+
+                    <label for="csharp"><input type="checkbox" id="csharp" name="interest" value="C#">C#</label>
+
+                    <label for="React"><input type="checkbox" id="React" name="interest" value="React">React</label>
+               </div>
+
+               <div class="container">
+                    <label for="comment">Suggestion and feedback</label>
+                    <textarea name="comment" id="comment" placeholder="Enter your comment"></textarea>
+               </div>
+
+               <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

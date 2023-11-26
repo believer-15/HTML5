@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    /* height: 100vh;
+    width: 100vw; */
+    background-color: #84a998;
+    text-align: center;
+}
+form {
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+.container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.container label {
+    display: block;
+    margin: 10px;
+}
+.container input,
+.container select,
+.container textarea {
+    display: block;
+    border-radius: 2px;
+    padding: 10px;
+    width: 95%;
+}
+.container input[type="checkbox"],
+.container input[type="radio"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
